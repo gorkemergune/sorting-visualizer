@@ -80,7 +80,7 @@ Watch six classic algorithms sort in real time — pause, step manually, and adj
 brew install pkgconfig
 brew reinstall raylib
 
-git clone https://github.com/gorkemparadise/sorting-visualizer.git
+git clone https://github.com/gorkemergune/sorting-visualizer.git
 cd sorting-visualizer
 
 eval cc main.c $(pkg-config --libs --cflags raylib) -o main
@@ -92,7 +92,7 @@ eval cc main.c $(pkg-config --libs --cflags raylib) -o main
 ```bash
 sudo apt install libraylib-dev pkg-config
 
-git clone https://github.com/gorkemparadise/sorting-visualizer.git
+git clone https://github.com/gorkemergune/sorting-visualizer.git
 cd sorting-visualizer
 
 cc main.c $(pkg-config --libs --cflags raylib) -lm -o main
